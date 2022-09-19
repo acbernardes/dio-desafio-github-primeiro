@@ -2,4 +2,4 @@
 
 ### Repositório criado para o Desafio de Projeto
 
-#### Pastas dividas por módulos de estudo
+#### Pastas divididas por módulos de estudo
