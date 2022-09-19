@@ -1,0 +1,38 @@
+Comandos (cmd)
+
+dir (lista o diretorio)
+
+cd (navego) cd nomepasta
+
+mkdir(cria uma pasta)
+
+echo (printa o texto) - echo texto > arq.tx (salva o texto no arquivo)
+
+del pasta (deleta o conteudo da pasta)
+
+rmdir pasta /s /q (deleta a pasta toda)
+----------------------------------------
+
+Tópicos para entender git
+
+SHA [Secure Hash Algorithm] - cripitografa o arquivo (conjunto de caracter de 40 digitos - unicos)-> é uma forma curta de representar um arquivo
+------------------------
+
+Objetos para gift
+
+blobs, trees, commits
+-bloobs (guarda o sha do arquivos)
+tree - armazena blocos - armazena o local onde esta armazenados os arquivos
+----------------
+Comandos do git
+
+* git init -> inicio o git(crio a pasta .git - inicio um repositório)
+*git add -> adiciono as modificações ao repositorio
+* git commit - m "texto" -> faço o commit carregando uma mensagem de texto
+* git clone linkurl -> clono um repositorio do servidor (github) no meu git local
+
+###configurando o repositorio
+git config --global user.email "email@email.com"
+git config --global user.name "usergithub"
+
+*gist push origin master (publico o git)
